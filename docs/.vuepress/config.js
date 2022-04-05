@@ -9,7 +9,7 @@ module.exports = {
 	['link', { rel: 'apple-touch-icon', href: '/img/log.jpg' }],
   ],
   serviceWorker: true, // 是否开启 PWA
-
+  base: '/', 
 	theme: 'antdocs',
 // 导航栏log配置
 	themeConfig: {
